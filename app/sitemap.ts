@@ -1,9 +1,11 @@
 import { MetadataRoute } from 'next';
 
 const districts = [
-  'atasehir', 'beykoz', 'cekmekoy', 'kadikoy', 'kartal', 'maltepe', 'pendik',
-  'sancaktepe', 'sultanbeyli', 'sile', 'tuzla', 'umraniye', 'uskudar',
-  'darica', 'cayirova', 'gebze', 'dilovasi',
+  'atasehir-elektrikci', 'beykoz-elektrikci', 'cekmekoy-elektrikci', 'kadikoy-elektrikci',
+  'kartal-elektrikci', 'maltepe-elektrikci', 'pendik-elektrikci', 'sancaktepe-elektrikci',
+  'sultanbeyli-elektrikci', 'sile-elektrikci', 'tuzla-elektrikci', 'umraniye-elektrikci',
+  'uskudar-elektrikci', 'darica-elektrikci', 'cayirova-elektrikci', 'gebze-elektrikci',
+  'dilovasi-elektrikci',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

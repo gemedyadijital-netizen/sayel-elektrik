@@ -8,87 +8,87 @@ import CTA from '@/components/CTA';
 
 // İlçe verileri
 const districts: Record<string, { name: string; city: string; description: string }> = {
-  'atasehir': {
+  'atasehir-elektrikci': {
     name: 'Ataşehir',
     city: 'İstanbul',
     description: 'Ataşehir ve çevresinde elektrik tesisatı, arıza, sigorta, aydınlatma hizmetleri. Finanskent, Barbaros, İçerenköy, Küçükbakkalköy mahallelerinde 7/24 elektrikçi.',
   },
-  'beykoz': {
+  'beykoz-elektrikci': {
     name: 'Beykoz',
     city: 'İstanbul',
     description: 'Beykoz bölgesinde profesyonel elektrik hizmeti. Kavacık, Anadoluhisarı, Paşabahçe, Çubuklu mahallelerinde 7/24 elektrikçi.',
   },
-  'cekmekoy': {
+  'cekmekoy-elektrikci': {
     name: 'Çekmeköy',
     city: 'İstanbul',
     description: 'Çekmeköy ve çevresinde elektrik tesisatı ve arıza hizmetleri. Merkez, Taşdelen, Alemdağ mahallelerinde 7/24 elektrikçi.',
   },
-  'kadikoy': {
+  'kadikoy-elektrikci': {
     name: 'Kadıköy',
     city: 'İstanbul',
     description: 'Kadıköy\'de profesyonel elektrik hizmeti. Moda, Fenerbahçe, Bostancı, Göztepe, Kozyatağı mahallelerinde 7/24 elektrikçi.',
   },
-  'kartal': {
+  'kartal-elektrikci': {
     name: 'Kartal',
     city: 'İstanbul',
     description: 'Kartal bölgesinde elektrik tesisatı ve arıza hizmetleri. Soğanlık, Uğur Mumcu, Kordonboyu mahallelerinde 7/24 elektrikçi.',
   },
-  'maltepe': {
+  'maltepe-elektrikci': {
     name: 'Maltepe',
     city: 'İstanbul',
     description: 'Maltepe ve çevresinde profesyonel elektrik hizmeti. Cevizli, Altıntepe, Küçükyalı, Dragos mahallelerinde 7/24 elektrikçi.',
   },
-  'pendik': {
+  'pendik-elektrikci': {
     name: 'Pendik',
     city: 'İstanbul',
     description: 'Pendik\'te elektrik tesisatı ve arıza hizmetleri. Kaynarca, Kurtköy, Yenişehir, Esenyalı mahallelerinde 7/24 elektrikçi.',
   },
-  'sancaktepe': {
+  'sancaktepe-elektrikci': {
     name: 'Sancaktepe',
     city: 'İstanbul',
     description: 'Sancaktepe bölgesinde profesyonel elektrik hizmeti. Samandıra, Sarıgazi, Yenidoğan mahallelerinde 7/24 elektrikçi.',
   },
-  'sultanbeyli': {
+  'sultanbeyli-elektrikci': {
     name: 'Sultanbeyli',
     city: 'İstanbul',
     description: 'Sultanbeyli ve çevresinde elektrik tesisatı ve arıza hizmetleri. Tüm mahallelerde 7/24 elektrikçi hizmeti.',
   },
-  'sile': {
+  'sile-elektrikci': {
     name: 'Şile',
     city: 'İstanbul',
     description: 'Şile bölgesinde profesyonel elektrik hizmeti. Merkez ve köylerde 7/24 elektrikçi hizmeti.',
   },
-  'tuzla': {
+  'tuzla-elektrikci': {
     name: 'Tuzla',
     city: 'İstanbul',
     description: 'Tuzla\'da elektrik tesisatı ve arıza hizmetleri. Aydınlı, İçmeler, Postane mahallelerinde 7/24 elektrikçi.',
   },
-  'umraniye': {
+  'umraniye-elektrikci': {
     name: 'Ümraniye',
     city: 'İstanbul',
     description: 'Ümraniye\'de profesyonel elektrik hizmeti. Çakmak, Atatürk, İstiklal, Armağanevler mahallelerinde 7/24 elektrikçi.',
   },
-  'uskudar': {
+  'uskudar-elektrikci': {
     name: 'Üsküdar',
     city: 'İstanbul',
     description: 'Üsküdar bölgesinde elektrik tesisatı ve arıza hizmetleri. Acıbadem, Altunizade, Çengelköy mahallelerinde 7/24 elektrikçi.',
   },
-  'darica': {
+  'darica-elektrikci': {
     name: 'Darıca',
     city: 'Kocaeli',
     description: 'Darıca ve çevresinde profesyonel elektrik hizmeti. Osmangazi, Nene Hatun, Fevzi Çakmak mahallelerinde 7/24 elektrikçi.',
   },
-  'cayirova': {
+  'cayirova-elektrikci': {
     name: 'Çayırova',
     city: 'Kocaeli',
     description: 'Çayırova\'da elektrik tesisatı ve arıza hizmetleri. Akse, Şekerpınar mahallelerinde 7/24 elektrikçi.',
   },
-  'gebze': {
+  'gebze-elektrikci': {
     name: 'Gebze',
     city: 'Kocaeli',
     description: 'Gebze\'de profesyonel elektrik hizmeti. Osman Yılmaz, Güzeller, Köşklüçeşme mahallelerinde 7/24 elektrikçi.',
   },
-  'dilovasi': {
+  'dilovasi-elektrikci': {
     name: 'Dilovası',
     city: 'Kocaeli',
     description: 'Dilovası ve organize sanayi bölgelerinde elektrik tesisatı ve arıza hizmetleri. 7/24 elektrikçi.',

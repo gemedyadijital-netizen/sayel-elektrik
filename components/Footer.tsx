@@ -4,14 +4,14 @@ import Link from 'next/link';
 import { Phone, Mail, MapPin, Clock, Zap, Facebook, Instagram, Twitter } from 'lucide-react';
 
 const districts = [
-  { name: 'Ataşehir', slug: 'atasehir' },
-  { name: 'Kadıköy', slug: 'kadikoy' },
-  { name: 'Ümraniye', slug: 'umraniye' },
-  { name: 'Pendik', slug: 'pendik' },
-  { name: 'Kartal', slug: 'kartal' },
-  { name: 'Maltepe', slug: 'maltepe' },
-  { name: 'Gebze', slug: 'gebze' },
-  { name: 'Tuzla', slug: 'tuzla' },
+  { name: 'Ataşehir', slug: 'atasehir-elektrikci' },
+  { name: 'Kadıköy', slug: 'kadikoy-elektrikci' },
+  { name: 'Ümraniye', slug: 'umraniye-elektrikci' },
+  { name: 'Pendik', slug: 'pendik-elektrikci' },
+  { name: 'Kartal', slug: 'kartal-elektrikci' },
+  { name: 'Maltepe', slug: 'maltepe-elektrikci' },
+  { name: 'Gebze', slug: 'gebze-elektrikci' },
+  { name: 'Tuzla', slug: 'tuzla-elektrikci' },
 ];
 
 const services = [
